@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: VM7 Root9 attacker-input closure normal path
+    conditions:
+      - author = livastic-vm7-r61donor-261017
+      - base = root9-protected-261019
+      - title = VM7_ROOT9_NORMAL_PATH_261019
+      - -draft
+    actions:
+      merge:
+        method: merge
